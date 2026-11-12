@@ -1,0 +1,16 @@
+{
+  "name": "isometric-mosaic-studio",
+  "productName": "Isometric Mosaic Studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Paint a grid of shaded geometric facets with curated palettes, color inversion, and PNG export.",
+  "main": "main.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "test": "electron . --verify --disable-gpu"
+  },
+  "devDependencies": {
+    "electron": "45.3.0"
+  }
+}
